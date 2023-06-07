@@ -1,0 +1,30 @@
+.mdb-home{
+
+
+  .mdb-jumbotron{
+    background-image: url('/public/jumbotron-img.jpeg');
+    background-size: cover ;
+    height: 600px;
+    width: 100%;
+
+    .mdb-jumbotron-content{
+      h1,
+      p{
+        z-index: 100;
+        color: rgb(255, 255, 255);
+        padding-top: 100px;
+      }
+
+      a{
+        text-decoration: none;
+        color: white;
+      }
+    }
+  }
+
+  .mdb-home-content{
+    background-color:rgb(39, 37, 37);
+    color: white;
+    height: 500px;
+  }
+}
