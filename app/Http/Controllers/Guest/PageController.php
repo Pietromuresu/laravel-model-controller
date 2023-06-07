@@ -20,7 +20,9 @@ class PageController extends Controller
 
   public function movieDetails($id){
     $movie = Movie::find($id);
-
+    if(empty($movie)){
+      return redirect('404');
+    }
 
     return view('movie_details', compact('movie'));
   }
