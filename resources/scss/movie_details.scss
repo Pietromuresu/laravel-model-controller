@@ -1,0 +1,23 @@
+.pm-specifics{
+  background-color: #F6F6F6;
+  border-top: 1px solid #E3E3E3;
+  border-bottom: 1px solid #E3E3E3;
+  .row{
+      margin-bottom: 100px;
+      .col{
+          table{
+              td,
+              th{
+
+                  background: transparent;
+              }
+
+              td{
+                  h4{
+                      font-weight: 900;
+                  }
+              }
+          }
+      }
+  }
+}

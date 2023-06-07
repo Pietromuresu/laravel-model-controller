@@ -16,6 +16,7 @@
           <th scope="col">Nationality</th>
           <th scope="col">Launch Date</th>
           <th scope="col">Vote</th>
+          <th scope="col"></th>
         </tr>
       </thead>
       <tbody>
@@ -28,6 +29,13 @@
           <td>{{$movie->nationality}}</td>
           <td>{{$movie->date}}</td>
           <td>{{$movie->vote}}</td>
+          <td>
+            <div class="btn btn-danger">
+              <a href="{{route('movie_details', $movie->id)}}">
+                Go Specs
+              </a>
+            </div>
+          </td>
         </tr>
 
         @endforeach
